@@ -1,29 +1,28 @@
 html, body {
+	background-color: black;
 	background-image: url('imgs/background.png');
+	background-size: 1772px;
+	background-position: top;
 	background-repeat: no-repeat;
 	scroll-behavior: smooth;
-	background-position: top;
-	font-size:calc(8px + 1.08vw);
-	/*font-size: 18px;*/
+	font-size:calc(6px + 1.3vw);
 	font-family: "Arial";
-}
-
-@media screen and (min-width: 920px) {
-  body {
-     font-size: 18px;
-  }
+	margin:  0;
 }
 
 .navbar {
 	display: grid;
-	grid-template-columns: 5% 10% 5% 60% 5% 10% 5%;
-  margin: 0 6% 0 6%;
+	grid-template-columns: 2.878% 11.06% 2.878% 66.37% 2.878% 11.06% 2.878%;
+  margin: 8px;
 }
 
 @media screen and (min-width: 920px) {
   .navbar {
     display: grid;
-		grid-template-columns: calc(calc(100% - 700px) * 0.2) 100px calc(calc(100% - 700px) * 0.3) 500px calc(calc(100% - 700px) * 0.3) 100px calc(calc(100% - 700px) * 0.2);
+		grid-template-columns: calc(calc(100% - 800px) * 0.25) 100px calc(calc(100% - 800px) * 0.25) 600px calc(calc(100% - 800px) * 0.25) 100px calc(calc(100% - 800px) * 0.25);
+  }
+  body {
+     font-size: 18px;
   }
 }
 
@@ -38,8 +37,8 @@ html, body {
 
 .nav-menu {
 	display: grid;
-	grid-template-columns: 19% 19% 19% 19%;
-	grid-column-gap: 8%;
+	grid-template-columns: 20.5% 20.5% 20.5% 20.5%;
+	grid-column-gap: 6%;
 	grid-column-start: 4;
   grid-column-end: 5;
 }
@@ -54,9 +53,13 @@ html, body {
 	vertical-align: middle;
 	width: 100%;
 	max-width: 100px;
+	border-radius:  3px;
 }
 
 .nav-item {
+	background-color: rgba(249,239,225,0.9);
+	border-radius:  3px;
+	padding:  2px;
 	text-align: center;
 	margin: auto;
 	width:  100%;
@@ -78,15 +81,18 @@ section {
 	padding: 35px;
 	background-color: rgba(0,0,0,0.75);
 	color:  white;
+	border-radius:  3px;
 }
 
-.mintButton {
+.mintButton a {
 	display: inline-block;
   border: 1px solid #59afff;
-  /*font-size: 24px;*/
+  font-size: 24px;
   background-color: #ffffff;
   padding: 15px;
   margin:  10px;
+  text-decoration: none;
+  color:  black;
 }
 
 .leftAlign {
