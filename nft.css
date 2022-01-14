@@ -1,11 +1,13 @@
 html, body {
 	background-color: black;
 	background-image: url('imgs/background.png');
-	background-size: 1772px;
+	/*background-size: 1772px;*/
+	/*background-size: 103vw;*/
+	/*min-height: 50%;*/
 	background-position: top;
 	background-repeat: no-repeat;
 	scroll-behavior: smooth;
-	font-size:calc(6px + 1.3vw);
+	font-size:calc(5px + 1.413vw);
 	font-family: "Arial";
 	margin:  0;
 }
@@ -59,7 +61,7 @@ html, body {
 .nav-item {
 	background-color: rgba(249,239,225,0.9);
 	border-radius:  3px;
-	padding:  2px;
+	padding:  5px;
 	text-align: center;
 	margin: auto;
 	width:  100%;
